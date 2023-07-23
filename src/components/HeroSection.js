@@ -6,6 +6,7 @@ import Button from "./Button";
 function HeroSection() {
     return (
         <div className="hero-container">
+            {/*Optional video playing here, comment out if we are using background image instead in hero-container*/}
             <video src="/video-1.mp4" autoPlay loop muted />
             <h1>ADVENTURE AWAITS</h1>
             <p> What are you waiting for?</p>
